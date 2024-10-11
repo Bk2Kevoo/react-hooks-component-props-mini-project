@@ -1,5 +1,3 @@
-import React from "react";
-
 function Article({ title, date = "January 1, 1970", preview, minutes }) {
   const displayEmojis = minutes < 30 ? "☕️".repeat(Math.ceil(minutes / 5)) : "🍱".repeat(Math.ceil(minutes / 10));
 
